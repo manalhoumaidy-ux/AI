@@ -1,0 +1,26 @@
+# Environment configuration
+.env
+.env.*
+!.env.example
+!**/.env.example
+backend.env
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Frontend dependencies and build output
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+*.next-trace
+node_modules.bin-*
+
+# Runtime data
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/logs/*
+!backend/logs/.gitkeep

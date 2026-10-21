@@ -1,0 +1,53 @@
+================================================
+     BiasDetector - Guide Ultra-Simple
+================================================
+
+COMMENT LANCER L'APPLICATION EN 1 COMMANDE:
+============================================
+
+1. Assurez-vous que Docker Desktop est lance
+   (l'icone Docker doit etre verte dans la barre des taches)
+
+2. Ouvrez PowerShell dans ce dossier
+
+3. Tapez cette commande:
+   .\LANCE-FINAL.ps1
+
+4. Attendez que le navigateur s'ouvre automatiquement
+
+C'EST TOUT!
+
+================================================
+
+PROBLEMES COURANTS:
+===================
+
+Q: "Docker n'est pas lance"
+R: Ouvrez l'application Docker Desktop et attendez qu'elle soit prete
+
+Q: "Ollama ne repond pas"
+R: Dans un nouveau terminal, tapez: ollama serve
+
+Q: "Port deja utilise"
+R: Fermez toutes les fenetres PowerShell et relancez le script
+
+Q: "Page ne charge pas"
+R: Attendez 30 secondes de plus, le backend peut mettre du temps a demarrer
+
+================================================
+
+ACCES A L'APPLICATION:
+======================
+
+Application: http://localhost:3000
+Backend API: http://localhost:8000
+Documentation: http://localhost:8000/docs
+
+================================================
+
+POUR ARRETER:
+=============
+
+Fermez toutes les fenetres PowerShell ouvertes par le script
+
+================================================
